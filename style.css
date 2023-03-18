@@ -1,5 +1,6 @@
 /* Estilos generales */
 body{
+    overflow: auto;
     margin: 0;
     padding: 0 4rem;
     font-family: Poppins, sans-serif;
@@ -12,7 +13,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
     margin: 4rem;
-    gap: 2rem;
+    gap: 3rem;
     grid-auto-rows: auto;
 }
 
@@ -32,11 +33,11 @@ body{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 35px;
 }
 
 p{
-    font-size: 22px;
+    font-size: 18px;
     padding: 0 7%;
     line-height: 1.7;
 }
@@ -56,10 +57,10 @@ i{
 }
 
 img{
-    transform: scale(0.8);
+    transform: scale(0.7);
     transition: transform 0.4s;
 }
 
 img:hover{
-    transform: scale(0.9);
+    transform: scale(0.8);
 }
