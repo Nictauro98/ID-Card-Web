@@ -1,0 +1,65 @@
+/* Estilos generales */
+body{
+    margin: 0;
+    padding: 0 4rem;
+    font-family: Poppins, sans-serif;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, #020024, #340979, #3d00da);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    margin: 4rem;
+    gap: 2rem;
+    grid-auto-rows: auto;
+}
+
+/* Estilos de la biografia */
+.grid-item-bio {
+    display: flex;
+    text-align: center;
+}
+
+.bio{
+    margin: auto;
+    transition: transform 0.5s;
+}
+
+.bio:hover{
+    transform: scale(1.1);
+}
+
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 22px;
+    padding: 0 7%;
+    line-height: 1.7;
+}
+
+i{
+    font-size: 30px;
+    padding: 2%;
+    color: white;
+}
+
+/* Estilos de la imagen */
+.grid-item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+img{
+    transform: scale(0.8);
+    transition: transform 0.4s;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
